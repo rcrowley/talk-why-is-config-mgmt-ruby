@@ -408,9 +408,9 @@
 
 !SLIDE bullets
 
-# From script to package
+# Idempotence
 
-* Idempotence.
+* N > 1 runs equivalent to N = 1 runs.
 * `PUT` not `POST`.
 * Manage whole files.
 
@@ -470,7 +470,7 @@
 * `File`, `Dir`, and `FileUtils`
 * `Process`
 * `Etc`
-* Ruby editorializes too much.
+* (Ruby editorializes too much.)
 * <http://tomayko.com/writings/unicorn-is-unix>
 
 
