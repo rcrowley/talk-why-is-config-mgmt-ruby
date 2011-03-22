@@ -590,7 +590,7 @@
 
 ## Anti-pattern
 
-## Internal DSLs
+# Internal DSLs
 
 * Obscure the Ruby Ruby scope.
 
