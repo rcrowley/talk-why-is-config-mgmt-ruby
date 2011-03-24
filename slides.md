@@ -34,7 +34,7 @@
 # Puppet
 
 * Ruby won out over Python and Perl.
-* The autoloader is the frequently cited reason.
+* The autoloader is the<br />frequently cited reason.
 
 
 
@@ -43,7 +43,7 @@
 # Puppet autoloader
 
 * `glob` for source files.
-* Each one registers itself using an internal DSL.
+* Each one registers itself<br />using an internal DSL.
 
 
 
@@ -66,7 +66,7 @@
 
 # Internal DSLs
 
-* Give one kind of context while taking another away.
+* Give one kind of context<br />while taking another away.
 
 
 
@@ -90,8 +90,8 @@
 
 ## These are questions I shouldn't have to ask:
 
-* Can I define classes, modules, and/or methods in this scope?
-* What is the fully-qualified name of a constant defined in this scope?
+* Can I define classes, modules,<br />and/or methods in this scope?
+* What is the fully-qualified name of<br />a constant defined in this scope?
 * Can I `return` in this scope?
 
 
@@ -210,7 +210,7 @@
 
 # External DSLs
 
-## Homegrown grammar versus piggybacking Ruby
+## Homegrown grammar versus<br />piggybacking on Ruby
 
 * Not better.  Not worse.
 
@@ -238,7 +238,7 @@
 
 # Despite their differences, Puppet and Chef both codify common systems administration tasks
 
-* That sounds like how people used to use Perl.
+* That sounds like how<br />people used to use Perl.
 
 
 
@@ -257,7 +257,7 @@
 # Ruby as a _better_ Perl
 
 * Blocks are better than subroutine references.
-* Real objects are better than fake objects.  No more structs full of function pointers!
+* Real objects are better than fake objects.<br />No more structs full of function pointers!
 
 
 
@@ -272,7 +272,7 @@
 
 !SLIDE bullets
 
-# RubyGems for people on-call
+# RubyGems for<br />people on-call
 
 * Regression testing.
 * Semantic versioning.
@@ -282,7 +282,7 @@
 
 !SLIDE bullets
 
-# RubyGems for people on-call
+# RubyGems for<br />people on-call
 
 * Stability first.
 * No one wants to depend on a moving target.
@@ -327,7 +327,7 @@
 # Rake
 
 * Intended for interactive use.
-* Logging isn't _as_ necessary with fail-fast execution.
+* Logging isn't _as_ necessary<br />with fail-fast execution.
 
 
 
@@ -337,7 +337,7 @@
 
 ## `ssh`-in-a-`for`-loop meets Rake
 
-* Dependency-oriented but works on multiple hosts in parallel.
+* Dependency-oriented but works<br />on multiple hosts in parallel.
 
 
 
@@ -368,7 +368,7 @@
 
 # The Marionette Collective
 
-* Orchestration via STOMP publish/subscribe rather than SSH.
+* Orchestration via STOMP<br />publish/subscribe rather than SSH.
 * Scalable upgrade to `ssh`-in-a-`for`-loop.
 
 
@@ -377,7 +377,7 @@
 
 # The Marionette Collective
 
-* General systems administration gone framework.
+* General systems administration<br />gone framework.
 
 
 
@@ -385,14 +385,15 @@
 
 # The Marionette Collective
 
-* Lots of small tools: `mc-ping`, `mc-find-hosts`, `mc-rpc`, and more.
-* Compose these to form new programs.  _It's a UNIX system.  I know this._
+* Lots of small tools:<br />`mc-ping`, `mc-find-hosts`, `mc-rpc`, and more.
+* Compose these to form new programs.
+* _It's a UNIX system.  I know this._
 
 
 
 !SLIDE bullets
 
-# From middleware to MCollective
+# From middleware<br />to MCollective
 
 * Everything starts life as a "script."
 
@@ -422,13 +423,13 @@
 
 * Principle of least surprise.
 * Namespaces.
-* Look for generic solutions.  Not too hard, though.
+* Look for generic solutions.<br />Not too hard, though.
 
 
 
 !SLIDE bullets
 
-# Why even bother with Ruby?
+# Why even bother<br />with Ruby?
 
 
 
@@ -451,9 +452,9 @@
 
 # Data structures programs
 
-* Need more than POSIX shell's scalar variables.
+* Need more than POSIX shell's<br />scalar variables.
 * Need more than Bash's one-dimensional indexed and associative arrays.
-* Classes, methods, sockets, threads, events, etc.
+* Classes, methods, sockets,<br />threads, events, etc.
 
 
 
@@ -479,7 +480,7 @@
 
 # Data structures in Ruby
 
-* A hopefully obvious exercise left to the listener.
+* A hopefully obvious exercise<br />left to the listener.
 
 
 
@@ -543,7 +544,7 @@
 
 !SLIDE bullets
 
-# Explicit is better than implicit
+# Explicit is better<br />than implicit
 
 * (Says _The Zen of Python_.)
 
@@ -565,7 +566,7 @@
 # Magic
 
 * The enemy of operable.
-* Don't get cute: it's OK if your code looks like code.
+* Don't get cute: it's OK<br />if your code looks like code.
 
 
 
@@ -623,7 +624,7 @@
 
 # Magic
 
-* Requires intimate knowledge to maintain and operate.
+* Requires intimate knowledge<br />to maintain and operate.
 
 
 
@@ -631,7 +632,7 @@
 
 ## Philosophy
 
-# Explicit is better than implicit
+# Explicit is better<br />than implicit
 
 * Reduces coupling.
 * Provides context.
