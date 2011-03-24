@@ -25,7 +25,7 @@
 
 # Puppet
 
-* There once was a systems administrator named Luke who didn't want to use CFEngine anymore...
+* There once was a systems administrator named Luke who didn&#8217;t want to use CFEngine anymore...
 
 
 
@@ -79,8 +79,8 @@
 	  # ...
 	end
 
-* It's obvious this introduces a type.
-* It's not obvious what Ruby code goes here.
+* It&#8217;s obvious this introduces a type.
+* It&#8217;s not obvious what Ruby code goes here.
 
 
 
@@ -88,7 +88,7 @@
 
 # Internal DSLs
 
-## These are questions I shouldn't have to ask:
+## These are questions I shouldn&#8217;t have to ask:
 
 * Can I define classes, modules,<br />and/or methods in this scope?
 * What is the fully-qualified name of<br />a constant defined in this scope?
@@ -220,7 +220,7 @@
 
 # Internal DSLs
 
-## "What scope is that?" versus Ruby Ruby
+## &#8220;What scope is that?&#8221; versus Ruby Ruby
 
 * This is not the place to get fancy.
 
@@ -230,7 +230,7 @@
 
 # Whatever, I still like Puppet better
 
-* Let's drink beer and argue about it, though.
+* Let&#8217;s drink beer and argue about it, though.
 
 
 
@@ -327,7 +327,7 @@
 # Rake
 
 * Intended for interactive use.
-* Logging isn't _as_ necessary<br />with fail-fast execution.
+* Logging isn&#8217;t _as_ necessary<br />with fail-fast execution.
 
 
 
@@ -360,7 +360,7 @@
 	$
 
 * Each host can fail or succeed independently.
-* Everything's logged.
+* Everything&#8217;s logged.
 
 
 
@@ -387,7 +387,7 @@
 
 * Lots of small tools:<br />`mc-ping`, `mc-find-hosts`, `mc-rpc`, and more.
 * Compose these to form new programs.
-* _It's a UNIX system.  I know this._
+* _It&#8217;s a UNIX system.  I know this._
 
 
 
@@ -395,15 +395,15 @@
 
 # From middleware<br />to MCollective
 
-* Everything starts life as a "script."
+* Everything starts life as a &#8220;script.&#8221;
 
 
 
 !SLIDE bullets
 
-# "Scripts?"
+# &#8220;Scripts?&#8221;
 
-* So trivial you don't need to test them.
+* So trivial you don&#8217;t need to test them.
 
 
 
@@ -452,8 +452,8 @@
 
 # Data structures programs
 
-* Need more than POSIX shell's<br />scalar variables.
-* Need more than Bash's one-dimensional indexed and associative arrays.
+* Need more than POSIX shell&#8217;s<br />scalar variables.
+* Need more than Bash&#8217;s one-dimensional indexed and associative arrays.
 * Classes, methods, sockets,<br />threads, events, etc.
 
 
@@ -488,7 +488,7 @@
 
 # Composable Ruby, too
 
-* It's still a UNIX system.
+* It&#8217;s still a UNIX system.
 
 
 
@@ -502,7 +502,7 @@
 
 !SLIDE bullets smaller
 
-# Don't make me try this hard...
+# Don&#8217;t make me try this hard...
 
 	@@@ Ruby
 	# Devise doesn't manage its own dependencies and the main
@@ -556,8 +556,8 @@
 
 ## From the perspective of `foo.rb`
 
-* Don't trust that your dependencies are met.
-* This _implicitly_ couples you to the "loader."
+* Don&#8217;t trust that your dependencies are met.
+* This _implicitly_ couples you to the loader.
 
 
 
@@ -566,7 +566,7 @@
 # Magic
 
 * The enemy of operable.
-* Don't get cute: it's OK<br />if your code looks like code.
+* Don&#8217;t get cute: it&#8217;s OK<br />if your code looks like code.
 
 
 
